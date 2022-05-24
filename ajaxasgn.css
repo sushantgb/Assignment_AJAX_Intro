@@ -1,0 +1,50 @@
+/* bootstrap icon stylesheet */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+/* universal selector */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* main container div */
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: auto;
+    width: 50%;
+    text-align: left;
+    justify-items: center;
+    background-color:#cd96f2;
+    align-items: center;
+    padding: 1em;
+    margin-top: 2em;
+    font-size:1.5em;
+}
+/* styling of buttons div */
+.buttons{
+    display: flex;
+    gap: 2em;
+    width: 100%;
+}
+/* styling of buttons */
+button{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    padding: 0.5em;
+    width: 30%;
+    margin: auto;
+    font-size: 1em;
+    border-style: none;
+    cursor: pointer;
+}
+/* styling of table heading in catalog div */
+th{
+    text-align: right;
+}
+/* hover effect for buttons */
+button:hover{
+    background-color:rgb(210, 210, 210);
+}
